@@ -1,0 +1,24 @@
+{
+  "name": "tech-textwise-solutions-recursion",
+  "version": "1.0.0",
+  "description": "This project implements a recursive string reversal function as part of TextWise Solutions ContentOptimizer tool enhancement.",
+  "main": "index.js",
+  "type": "module",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest test/"
+  },
+  "keywords": [],
+  "author": "Edgar",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "engines": {
+    "node": ">=18",
+    "npm": ">=9"
+  }
+}

@@ -1,0 +1,15 @@
+Example: reverse("abc")
+
+reverse("abc")
+   → reverse("bc") + "a"
+
+reverse("bc")
+   → reverse("c") + "b"
+
+reverse("c")
+   → Base Case → returns "c"
+
+Now recursion returns back:
+
+"c" + "b" = "cb"
+"cb" + "a" = "cba"
